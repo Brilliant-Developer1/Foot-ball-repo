@@ -1,0 +1,343 @@
+/*------------------ Font Links -------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+/*-------- Common Styles --------------------------*/
+body{font-family: 'Poppins', sans-serif;margin-top: 0;}
+
+/*--------------------------------------------------- 
+                 Heading Section style
+----------------------------------------------------*/
+.heading-section{
+    width: 1440px;
+    background-color: #2D25A0;
+    margin: 0 auto;
+}
+.first-container{
+    width: 80% ;
+    margin: 0 auto;
+}
+nav{
+    padding-top: 50px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+
+}
+nav ul{
+    list-style: none;
+    padding-left: 0;
+}
+nav ul li{
+    display:inline;
+    padding-right: 38px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+button{
+    background-color: #E02C6D;
+    color: white;
+    font-size: 16px;
+    border: 0px;
+    width: 123px;
+    height: 44px;
+}
+/*--------------------------------------------------- 
+                 Banner Section style
+----------------------------------------------------*/
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding-bottom: 86px;
+}
+.banner-title{
+    width: 485px;}
+.banner-title h1{
+    font-size:64px ;
+    color: #fff;
+    margin: 40px 0px 0px 0px;
+    line-height: 80px;
+} 
+.transition-button a{
+    text-decoration: none;
+    color: #fff;}
+.banner-title button,.button-2{
+    width: 168px;
+    margin-top: 27px;}
+
+.banner-pic img{
+    width: 556px;}
+main .fas{
+    transform: rotate(0deg);
+    transition: transform 2s;}
+.banner-title:hover .fas{
+    transform: rotate(180deg);}
+/*--------------------------------------------------- 
+                 Players Section style
+----------------------------------------------------*/
+.players-container,.highlight-container,footer,.merchandise-container,.videos-container{
+    width: 1440px;
+    margin: 0 auto;
+}
+.all-players{
+    width: 1050px;
+    margin: 0 auto;
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+}
+.player{
+    width: 330px;
+    height: 474px;
+    padding: 15px 0px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.player img{
+    width: 300px;
+    height: 256px;
+    display: block;
+    margin: 0 auto;
+}
+.player-name{
+    width: 300px;
+    margin: 0 auto;
+}
+.player-name h2{
+    margin: 16px 0px 0px 0px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #18191F;
+}
+.player-name p{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #6C6C6C;
+}
+/*--------------------------------------------------- 
+                 Highlight Section style
+----------------------------------------------------*/
+.highlight-container{
+    margin-top: 125px;
+}
+.higlights{
+    width: 1100px;
+    margin: 0px 0px 0px 210px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.highlight-text{
+    width: 469px;
+    height: 241px;
+    color: #6C6C6C;
+}
+.highlight-text h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #0A0826;
+    margin-bottom: 0px;
+    line-height:60px;
+}
+.highlight-text:hover .fas{
+    transform: rotate(180deg);}
+.higlight-image img{
+    width: 567px;
+    height: 427px;
+}
+
+/*--------------------------------------------------- 
+        Merchandise Section style - For bonus
+----------------------------------------------------*/
+.merchandise-container,.videos-container{
+    margin-top: 70px;}
+.merchandise-section{
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.section-title{
+    text-align: center;
+    font-weight: 500;  
+}
+.merchandise{
+    width: 210px;
+    height: 400px;
+    padding: 8px;
+    margin-top: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.merchandise:hover{
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.merchandise img{
+    width: 200px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+}
+.merchandise P,span{
+    text-align:center;
+    margin-bottom: 0px;
+    display: block;
+    font-size: 15px;
+}
+.merchandise span{
+    font-size: 14px;
+    color: grey;
+    font-weight: lighter;
+}
+.merchandise button{
+    margin: 10px 45px;
+}
+.merchandise a{
+    text-decoration: none;
+    color: #fff;
+}
+.merchandise button:hover{
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+/*--------------------------------------------------- 
+     Featured Videos Section style - For bonus
+----------------------------------------------------*/
+.videos-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+.video{
+    width: 210px;
+    height: 310px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    padding: 10px;
+}
+.video iframe{
+    width: 210px;
+    height: 120px;
+}
+.video h3{
+    margin-top: 0;
+    color: red;
+    font-size: 15px;
+}
+.video span{
+    text-align: left;
+    font-size: 22px;
+}
+.video p{
+    font-size: 13px;
+    margin-bottom: 0px;
+    color: gray;
+}
+/*--------------------------------------------------- 
+                 Footer Section style
+----------------------------------------------------*/
+footer{margin-top: 158px;}
+.footer-container{
+    width: 485px;
+    margin: 0 auto;
+}
+.footer-image img{
+    width: 484px;
+    height: 110px;
+}
+.social-icon{
+    width: 235px;                     
+    margin: 0 auto;
+}
+.social-icon .fab{
+    font-size: 32px;
+    margin-right: 14px;
+    color: #969BAB;
+}
+.social-icon p{
+    font-size: 18px;
+    font-weight: 400px;}
+@media only screen and (max-width: 688px){
+    .heading-section{
+        width: 100%;
+        
+    }
+    .banner-container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    nav{display: none;}
+    .banner-title{
+        width: 278px;}
+    .banner-title h1{font-size: 36px;}
+    .banner-pic img{
+        width: 329px;
+        margin-top: 50px;
+    }
+    .players-container,.highlight-container,footer,.merchandise-container,.videos-container{
+        width: 100%;
+    }
+    .all-players{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .player{width: 370px;}
+    .player img{
+        width: 340px;height: 286px;
+    }
+    .player-name{width: 340px;}
+    .highlight-container{
+        margin-top: 60px;
+    }
+    .higlights{
+        width: 100%;
+        flex-direction: column;
+        margin: 0px 0px 0px 15px;
+    }
+    .highlight-text{
+        width: 329px;
+    }
+    .higlight-image img {
+        width: 368px;
+        height: 248px;
+        margin-top: 140px;
+    }
+    .highlight-text h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .merchandise-section{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .merchandise,.footer-container{
+        width: 100%;
+    }
+    .merchandise button{
+        margin: 10px 135px;
+    }
+    .section-title{
+        font-size: 2.2rem;
+    }
+    .videos-section{
+        flex-direction: column;
+        align-items: center;
+    }
+    .video{width: 100%;height: 450px;}
+    .video iframe
+    {width: 490px;
+     height: 280px;
+     
+    }
+    .footer-container{
+        width: 100%;
+    }
+    .footer-image img{
+        width: 340px;
+        height: 80px;
+    }
+}
